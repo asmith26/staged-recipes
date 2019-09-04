@@ -1,3 +1,18 @@
+# asmith26 notes
+
+## Add recipe
+
+Based on [the doc](https://conda-forge.org/#add_recipe):
+-  ["ALREADY DONE": Fork conda-forge/staged-recipes]
+- Create a new branch from the staged-recipes master branch.
+  - `git checkout master`
+  - `git branch <MY PACKAGE NAME--MY PACKAGE VERSION>`
+- `cd recipes`
+- `conda skeleton pypi <MY PYPI PACKAGE>`. This create a base recipe which can be modified - see [the doc](https://docs.conda.io/projects/conda-build/en/latest/concepts/recipe.html).
+- Propose the change as a pull request.
+
+---
+
 ## About
 
 This repo is a holding area for recipes destined for a conda-forge feedstock repo. To find out more about conda-forge, see https://github.com/conda-forge/conda-smithy.
